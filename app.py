@@ -8,6 +8,6 @@ def index():
 
 @app.get("/info") 
 def info(): 
-   modulo = "Flask" 
+   modulo = "Flask " 
    aula = 1
    return f"Módulo: {modulo} — Aula {aula}"
